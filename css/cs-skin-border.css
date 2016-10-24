@@ -1,0 +1,70 @@
+div.cs-skin-border {
+	background: #FFF;
+	font-size: 13px;
+	max-width: 250px;
+	width:250px;
+	font-family:"Open Sans S";
+	border:#999;
+	color:#666;
+}
+
+.cs-skin-border > span {
+	border: 2px solid #666;
+	border-color: inherit;
+	-webkit-transition: background 0.2s, border-color 0.2s;
+	transition: background 0.2s, border-color 0.2s;
+}
+
+.cs-skin-border > span::after,
+.cs-skin-border .cs-selected span::after {
+	font-size: 2.0em;right: 10px; color:#999;
+}
+
+.cs-skin-border ul span::after {
+	content: '';
+	opacity: 0;
+}
+
+
+.cs-skin-border.cs-active > span {
+	background: #fff;
+	border-color: #ccc;
+	border-bottom-color:#fff;
+	color: #444;
+}
+
+.cs-skin-border .cs-options {
+	color: #2980b9;
+	font-size: 0.75em;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, visibility 0s 0.2s;
+	transition: opacity 0.2s, visibility 0s 0.2s;
+	
+}
+
+.cs-skin-border.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.cs-skin-border ul span {
+	padding: 8px 20px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-left:2px solid #ccc;
+	border-right:2px solid #ccc;
+	font-family:"Open Sans S";
+	font-size:13px;
+	color:#777;
+}
+.cs-skin-border ul {
+	border-bottom:2px solid #ccc;
+}
+.cs-select.cs-active .cs-options {
+    margin-top: -2px;
+}
+.cs-skin-border .cs-options li span:hover,
+.cs-skin-border li.cs-focus span {
+	background: #f5f3ec;
+}

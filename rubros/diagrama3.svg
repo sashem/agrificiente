@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="default"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   sodipodi:docname="French_presidential_election,_2007_1st_.svg"
+   sodipodi:docbase="C:\Documents and Settings\Liquid_2003\Bureau"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <metadata
+     id="metadata58">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs56">
+    <linearGradient
+       id="linearGradient14883">
+      <stop
+         style="stop-color:#007eff;stop-opacity:1;"
+         offset="0"
+         id="stop14885" />
+      <stop
+         id="stop14891"
+         offset="0.5"
+         style="stop-color:#f5ffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="1"
+         id="stop14887" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14883"
+       id="linearGradient14889"
+       x1="44.917953"
+       y1="196.04225"
+       x2="300.5"
+       y2="300.5"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="817"
+     inkscape:window-width="1152"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.2566667"
+     inkscape:cx="269.64949"
+     inkscape:cy="426.70446"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg2" />
+  <g
+     id="gr1178204299">
+    <rect
+       x="0"
+       y="0"
+       width="600"
+       height="600"
+       id="rect5"
+       stroke="none"
+       fill="white" />
+    <circle
+       cx="302.5"
+       cy="302.5"
+       r="255"
+       id="circle7"
+       stroke="none"
+       fill="#aaa" />
+  </g>
+  <path
+     style="fill:#00a2ff;stroke:#6267ff;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 300,50 C 383.29755,50 461.12369,91.487076 507.55616,160.64276 C 553.98863,229.79844 562.92758,317.53771 531.39563,394.63647 L 300,300 L 300,50 z "
+     xlink:title="Nicolas Sarkozy (31.179%)"
+     id="path1178204300" />
+  <path
+     style="fill:#ffb8e2;stroke:#f3abe4;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 531.39563,394.63647 C 505.39667,458.20653 454.38982,508.28077 390.35088,533.10238 C 326.31194,557.92398 254.88172,555.30656 192.83116,525.86465 L 300,300 L 531.39563,394.63647 z "
+     xlink:title="Ségolène Royal (25.872%)"
+     id="path1178204301" />
+  <path
+     style="fill:#ffb600;stroke:#ff8e00;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 192.83116,525.86465 C 102.38784,482.95087 46.264828,390.22221 50.19249,290.19142 L 300,300 L 192.83116,525.86465 z "
+     xlink:title="François Bayrou (18.574%)"
+     id="path1178204302" />
+  <path
+     style="fill:url(#linearGradient14889);stroke:#9ca2a4;stroke-width:1px;fill-opacity:1.0;stroke-opacity:1"
+     d="M 50.19249,290.19142 C 52.357207,235.05982 72.699153,182.19293 108.04812,139.82986 L 300,300 L 50.19249,290.19142 z "
+     xlink:title="Jean-Marie Le Pen (10.443%)"
+     id="path1178204303" />
+  <path
+     style="fill:#d90000;stroke:#970000;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 108.04812,139.82986 C 121.75758,123.4001 137.51969,108.79844 154.9479,96.382984 L 300,300 L 108.04812,139.82986 z "
+     xlink:title="Olivier Besancenot (4.081%)"
+     id="path1178204304" />
+  <path
+     style="fill:#4546ba;stroke:#522481;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 154.9479,96.382984 C 164.45666,89.60916 174.42825,83.509733 184.78943,78.129486 L 300,300 L 154.9479,96.382984 z "
+     xlink:title="Philippe de Villiers (2.229%)"
+     id="path1178204305" />
+  <path
+     style="fill:#f00200;stroke:#cc0000;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 184.78943,78.129486 C 193.74265,73.480353 202.96908,69.37742 212.41809,65.843197 L 300,300 L 184.78943,78.129486 z "
+     xlink:title="Marie-George Buffet (1.926%)"
+     id="path1178204306" />
+  <path
+     style="fill:#54cd3d;fill-opacity:1;stroke:#00b600;stroke-width:1px;stroke-opacity:1"
+     d="M 212.41809,65.843197 C 220.12149,62.961887 227.96238,60.462477 235.91215,58.354085 L 300,300 L 212.41809,65.843197 z "
+     xlink:title="Dominique Voynet (1.57%)"
+     id="path1178204307" />
+  <path
+     style="fill:#c10000;stroke:#a50000;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 235.91215,58.354085 C 242.63724,56.570498 249.43386,55.068431 256.28425,53.851806 L 300,300 L 235.91215,58.354085 z "
+     xlink:title="Arlette Laguiller (1.329%)"
+     id="path1178204308" />
+  <path
+     style="fill:#269142;stroke:#408f3f;stroke-width:1px;fill-opacity:1;stroke-opacity:1"
+     d="M 256.28425,53.851806 C 263.06653,52.647277 269.8957,51.723578 276.75427,51.083074 L 300,300 L 256.28425,53.851806 z "
+     xlink:title="José Bové (1.315%)"
+     id="path1178204309" />
+  <path
+     style="fill:#e5b36e;stroke:#e5b36e;stroke-width:1px"
+     d="M 276.75427,51.083074 C 282.7271,50.525286 288.71807,50.182659 294.71555,50.055857 L 300,300 L 276.75427,51.083074 z "
+     xlink:title="Frédéric Nihous (1.146%)"
+     id="path1178204310" />
+  <path
+     style="fill:#e27a5e;stroke:#e27a5e;stroke-width:1px"
+     d="M 294.71555,50.055857 C 296.47679,50.01862 298.23837,50 300,50 L 300,300 L 294.71555,50.055857 z "
+     xlink:title="Gérard Schivardi (0.336%)"
+     id="path1178204311" />
+  <text
+     xml:space="preserve"
+     style="font-size:24px"
+     x="335.80795"
+     y="230.57257"
+     id="text1948"><tspan
+       sodipodi:role="line"
+       id="tspan1950"
+       x="335.80795"
+       y="230.57257"><tspan
+         x="335.80795"
+         y="230.57257"
+         id="tspan1952"
+         style="font-size:24px">Nicolas Sarkozy</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24px"
+     x="35.651188"
+     y="388.24857"
+     id="text1960"><tspan
+       sodipodi:role="line"
+       id="tspan1962"
+       x="35.651188"
+       y="388.24857">François Bayrou</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24px"
+     x="15.694771"
+     y="260.28702"
+     id="text1966"><tspan
+       sodipodi:role="line"
+       id="tspan1968"
+       x="15.694771"
+       y="260.28702">Jean-Marie Le Pen</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="36.837391"
+     y="130.75903"
+     id="text1974"><tspan
+       sodipodi:role="line"
+       id="tspan1976"
+       x="36.837391"
+       y="130.75903">Olivier Besancenot</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="22.966713"
+     y="85.540443"
+     id="text1978"><tspan
+       sodipodi:role="line"
+       id="tspan1980"
+       x="22.966713"
+       y="85.540443">Philippe de Villiers</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="91.657867"
+     y="47.384888"
+     id="text1982"><tspan
+       sodipodi:role="line"
+       id="tspan1984"
+       x="91.657867"
+       y="47.384888">Dominique Voynet</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="53.438671"
+     y="63.300007"
+     id="text1986"><tspan
+       sodipodi:role="line"
+       id="tspan1988"
+       x="53.438671"
+       y="63.300007">Marie-George Buffet</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="106.62376"
+     y="30.674007"
+     id="text1990"><tspan
+       sodipodi:role="line"
+       id="tspan1992"
+       x="106.62376"
+       y="30.674007">Arlette Laguiller</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="155.4153"
+     y="15.116979"
+     id="text1994"><tspan
+       sodipodi:role="line"
+       id="tspan1996"
+       x="155.4153"
+       y="15.116979">José Bové</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="283.40338"
+     y="19.120483"
+     id="text1998"><tspan
+       sodipodi:role="line"
+       id="tspan2000"
+       x="283.40338"
+       y="19.120483">Frédéric Nihous</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px"
+     x="297.36807"
+     y="35.728123"
+     id="text2002"><tspan
+       sodipodi:role="line"
+       id="tspan2004"
+       x="297.36807"
+       y="35.728123">Gérard Schivardi</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 192.57294,59.681697 L 198.14324,68.435013"
+     id="path2006" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 215.64987,43.766578 L 222.01592,58.090185"
+     id="path2008" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 223.60743,25.464191 L 241.11406,53.31565"
+     id="path2010" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 228.38196,9.5490713 L 258.62069,47.745358"
+     id="path2012" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 283.28912,24.668435 L 284.88064,45.35809"
+     id="path2014" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 299.20424,37.40053 L 299.20424,46.949602"
+     id="path2016" />
+  <text
+     xml:space="preserve"
+     style="font-size:24px"
+     x="273.17691"
+     y="468.95532"
+     id="text2018"><tspan
+       sodipodi:role="line"
+       id="tspan2020"
+       x="273.17691"
+       y="468.95532">Ségolène Royal</tspan></text>
+</svg>
+<!-- Circle Graph Maker 1.00 (20070411) 2007-05-03 23:58:19 (Japan Standard Time) -->

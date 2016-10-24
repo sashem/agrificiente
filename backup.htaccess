@@ -1,0 +1,78 @@
+Options +FollowSymLinks
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=mejoras&mejora=([0-9]+) [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=bpracticas&practica=([0-9]+) [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=verrubro&rubro=([0-9]+) [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=diagnostico [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=discusiones [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=users&us=empresas [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=users&us=proveedores [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php$ [NC,OR]
+RewriteCond %{THE_REQUEST} http:\/\/www\.agrificiente\.cl\/plataforma\/?$ [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php [NC,OR]
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=profile&user=([0-9]+) [NC]
+#RewriteCond %{THE_REQUEST} $ [NC,OR]
+RewriteRule ^ plataforma/eventos? [R=301,L]
+RewriteRule ^eventos\/?$ plataforma/index.php?id=eventix
+
+RewriteCond %{REQUEST_URI} ^(\/plataforma\/?)$
+RewriteRule ^ plataforma/eventos/? [R=301,L]
+
+RewriteRule ^(\/?plataforma\/?)$ http://www.agrificiente.cl/plataforma/eventos/
+RewriteRule ^\/?plataforma\/?$ http://www.agrificiente.cl/plataforma/eventos/
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=mejoras&mejora=([0-9]+) [NC]
+#RewriteRule ^ plataforma/mejoras/%1? [R=301,L]
+#RewriteRule ^mejoras\/([0-9]+)\/?$ plataforma/index.php?id=mejoras&mejora=$1
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=bpracticas&practica=([0-9]+) [NC]
+#RewriteRule ^ plataforma/buenaspracticas/%1? [R=301,L]
+#RewriteRule ^buenaspracticas\/([0-9]+)\/?$ plataforma/index.php?id=bpracticas&practica=$1
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=verrubro&rubro=([0-9]+) [NC]
+#RewriteRule ^ plataforma/rubros/%1? [R=301,L]
+#RewriteRule ^rubros\/([0-9]+)\/?$ plataforma/index.php?id=verrubro&rubro=$1
+
+RewriteCond %{THE_REQUEST} plataforma\/evento\.php\?evento=([0-9]+)(&register=ok)? [NC]
+RewriteRule ^ plataforma/eventos/%1%2? [R=301,L]
+RewriteRule ^eventos\/([0-9]+)(&register=ok)?\/?$ plataforma/evento.php?evento=$1$2
+
+RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=eventix [NC]
+RewriteRule ^ plataforma/eventos? [R=301,L]
+RewriteRule ^eventos\/?$ plataforma/index.php?id=eventix
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=diagnostico [NC]
+#RewriteRule ^ plataforma/diagnostico? [R=301,L]
+#RewriteRule ^diagnostico\/?$ plataforma/index.php?id=diagnostico
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=discusiones [NC]
+#RewriteRule ^ plataforma/discusiones? [R=301,L]
+#RewriteRule ^discusiones\/?$ plataforma/index.php?id=discusiones
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=users&us=empresas [NC]
+#RewriteRule ^ plataforma/empresas? [L,R=301]
+#RewriteRule ^empresas\/?$ plataforma/index.php?id=users&us=empresas 
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=users&us=proveedores [NC]
+#RewriteRule ^ plataforma/proveedores? [L,R=301]
+#RewriteRule ^proveedores\/?$ plataforma/index.php?id=users&us=proveedores
+
+#RewriteCond %{THE_REQUEST} plataforma\/index\.php\?id=profile&user=([0-9]+) [NC]
+#RewriteRule ^ plataforma/perfiles/%1? [L,R=301]
+#RewriteRule ^perfiles\/([0-9]+)\/?$ plataforma/index.php?id=profile&user=$1
+#RewriteRule ^perfiles/(css|js|img|profiles|iconos|proyectos)/(.*)?$ /plataforma/$1/$2 [L,R=301]
+
+#plataforma/index.php?id=users&us=empresas
+#plataforma/index.php?id=profile&user=134
+#plataforma/index.php?id=users&us=proveedores
+#http://www.agrificiente.cl/plataforma/index.php?id=discusiones
+#index.php?id=eventos
+#index.php?id=diagnostico
+#/plataforma/index.php?id=eventos
+#/plataforma/index.php?id=home
+#/plataforma/index.php?id=verrubro&rubro=1
+#/plataforma/index.php?id=bpracticas&practica=12
+#/plataforma/index.php?id=mejoras&mejora=48
